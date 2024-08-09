@@ -1,0 +1,131 @@
+/*This file is a template css for state, copy all code from here*/
+/*DONT DIRECTLY LINK THIS CSS FILE*/
+
+
+  .state-container {
+    width: 100%;
+    height: fit-content;
+    padding-top: 5%;
+    padding-bottom:5%;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+  }
+
+  
+  .statename {
+    width: 50%;
+    height: fit-content;
+    margin: auto 5% auto 5%;
+    padding: 1%;
+    float: right;
+  }
+  
+  .statename span {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 3em;
+    margin: auto 5% auto 5%;
+    font-family: 'Roboto', sans-serif;
+    text-overflow: ellipsis;
+  }
+  
+  .state-info {
+    background-color: white;
+    margin-right: 0.5%;
+    color: black;
+    width: 50%;
+    height: fit-content;
+    padding: 40px;
+    float: right;
+    font-size: 20px;
+  }
+
+  .state-info span{
+    font-size: 1.0em;
+    color: black;
+    line-height: 2em;
+  }
+
+/*attractions-title*/
+.attractions-title {
+  text-align: center;
+  margin: 1%;
+}
+
+.attractions-title h2 {
+  font-size: 50px;
+  margin: 1%;
+  }
+
+.line {
+    border-bottom: 2px solid  #6698FF;
+    margin-top: 5px;
+    width: 13%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*top-destination*/
+.top-destination-container{
+  width: 100%;
+  margin-top: 1%;
+  margin-bottom:1%;
+}
+  .top-destination-image{
+    padding: 1%;
+    width: 25%;
+    float: left;
+    height: 40vh;
+  }
+
+.top-destination-image img{
+  border-radius: 30px;
+	width: 100%;
+	height:100%;
+}
+  .top-destination-info{
+    padding: 1%;
+    width: 60%;
+    margin-left: 1%;
+    display: inline-block;
+    height: 40vh;
+  }
+
+  .destination-name span{
+    font-weight: bold;
+    font-size: xx-large;
+  }
+
+.destination-description{
+padding-top: 1%;
+}
+
+.destination-description span{
+  font-size: x-large;
+}
+
+.top-destination-button{
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12%;
+  float:right;
+  height: 40vh;
+}
+
+.top-destination-button a{
+  background-color: #C6DEFF;
+  padding: 10%;
+  border-radius: 5px;
+  color: black;
+  font-size: large;
+  font-weight: bold;
+}
+  
+.top-destination-button a:hover{
+ color: #FEFCFF;
+}

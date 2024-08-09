@@ -1,0 +1,203 @@
+/*This file is a template css for state, copy all code from here*/
+/*DONT DIRECTLY LINK THIS CSS FILE*/
+
+
+.state-container {
+  width: 100%;
+  height: fit-content;
+  padding-top: 1%;
+  padding-bottom:1%;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+}
+
+
+.stateimage {
+  width: 50%;
+  height: 300px;
+  margin: 1%;
+  margin-left: 5%;
+  float: right;
+}
+
+.stateimage img {
+  border-radius: 50px;
+  padding-left: 2%;
+  width: 100%;
+  height: 300px;
+  
+}
+
+.stateimage1 {
+  width: 25%;
+  height: 300px;
+  margin: 1%;
+  float: left;
+}
+
+.stateimage1 img{
+  border-radius: 50px;
+  width: 100%;
+  height: 300px;
+}
+
+.stateimage2 {
+  width: 25%;
+  height: 300px;
+  margin: 1%;
+  margin-right: 5%;
+  float: left;
+}
+
+.stateimage2 img{
+  border-radius: 50px;
+  width: 100%;
+  height: 300px;
+}
+
+
+/*attractions-title*/
+.attractions-title {
+text-align: center;
+margin: 1%;
+}
+
+.attractions-title h2 {
+font-size: 50px;
+margin: 1%;
+}
+
+.line {
+  border-bottom: 3px solid  black;
+  margin-top: 5px;
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.destination-container {
+  width: 95%;
+  height:95%;
+  margin:0% 5% 0% 5%;
+}
+
+.overview h1{ 
+font-size: xx-large;
+}
+
+.overview-description{
+line-height: 1.6;
+text-align: justify;
+font-family: "Poppins", sans-serif;
+width:90%;
+color: grey;
+font-size: 20px;
+}
+
+.fa-regular.fa-map{
+  margin-right: 2%;
+}
+
+.tour-itinerary h1{
+font-size: xx-large;
+}
+
+.tour-itinerary span{
+color: grey;
+font-size: x-large;
+}
+
+.tour-day{
+  width:90%;
+  margin:2%;
+  color: black;
+  font-size: x-large;
+ }
+
+ .tour-day span{
+  line-height: 1.6;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  color: grey;
+  font-size: 20px;
+ }
+
+
+ .tour-day p{
+  line-height: 1.6;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+ }
+
+.image-container {
+width:90%;
+}
+
+.fa-solid.fa-camera-retro{
+  margin-right: 2%;
+}
+
+.image-container h1{
+font-size: xx-large;
+}
+
+.image-container1,
+.image-container2,
+.image-container3 {
+  display: inline-block;
+  margin-right: 20px; 
+}
+
+.image-container1 img,
+.image-container2 img,
+.image-container3 img {
+  border-radius: 30px;
+  width: 30vh; 
+  height: 20vh; 
+  transition: width 1s, height 1s, transform 1s; /* Add transition effects */
+}
+
+.image-container1:hover img,
+.image-container2:hover img,
+.image-container3:hover img {
+  width: 45vh; 
+  height: 30vh;
+}
+/*Video*/
+.video-container i{
+margin-right: 2%;
+}
+
+.video-container .video{
+  display: flex;
+}
+
+.video video{
+  border: 1px solid black;
+  margin-right: 1%;
+  width:fit-content;
+  height: 30vh;
+}
+
+.top-destination-button{
+padding: 3% 3% 3% 0%;
+
+}
+
+.top-destination-button a{
+background-color: #C6DEFF;
+border-radius: 15px;
+color: black;
+font-size: large;
+font-weight: bold;
+padding: 1%;
+}
+
+.top-destination-button a:hover{
+color: #FEFCFF;
+}         

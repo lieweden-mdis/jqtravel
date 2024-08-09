@@ -1,0 +1,136 @@
+/* Slideshow */
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    height: max-content;
+    z-index: 1;
+    transition: margin-top 0.3s ease;
+  }
+  
+  .mySlides img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1s;
+  }
+  
+  h1{
+    text-align: center;
+  }
+  .gallery {
+    position: relative;
+    display: grid;
+  	grid-template-columns: auto auto auto auto;
+    grid-gap: 2%;
+    grid-row-gap: 5%;
+    max-width: 100%;
+    height: 100%;
+    margin: 1% 10% 15% 10%;
+  }
+  
+  .gallery-item {
+    position: relative;
+    width: 100%;
+  }
+  
+  .gallery-item img {
+    filter: brightness(0.5) contrast(1);
+    width: 100%;
+    height: 30vh;
+    display: block;
+    transition: filter 0.3s ease, transform 0.3s ease;
+    border-radius: 20px;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 50%; 
+    transform: translateX(-50%);
+    color: white;
+    font-weight: bold;
+    opacity: 1;
+    width: 100%;
+    text-align: center;
+    border-radius: 20px;
+    padding: 2%;
+    margin-bottom:1%;
+  }
+  
+  .gallery-item:hover img {
+    filter: brightness(0.8);
+    transform: scale(1.1);
+  }
+  
+  .gallery-item:hover .overlay {
+    opacity: 1;
+  }
+
+  .travel-package-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+  }
+
+  .travel-package-card {
+    border: 1px solid black;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    width: 20vw;
+    height: 50vh;
+  }
+
+  .travel-package-card img{
+    border-radius: 30px 30px 0 0;
+    filter: brightness(1) contrast(1);
+    width: 100%;
+    height: 100%;
+  }
+.travel-package-card-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: wheat;
+  border-radius: 0 0 30px 30px;
+}
+
+  .travel-package-card span{
+    padding: 2%;
+    line-height: 1.5;
+  }
+
+#homepage-package-name{
+    font-size: x-large;
+    font-weight: bold;
+  }
+
+  #homepage-package-destination{
+    font-size: large;
+  }
+
+  #homepage-package-price{
+    font-size: medium;
+    font-weight: bold;
+    color: green;
+  }
+
+  .travel-package-card a{
+    padding: 3%;
+    text-decoration: none;
+    color: black;
+    border:2px solid black;
+    border-radius: 25px;
+    margin-bottom: 5%;
+    background-color: skyblue;
+  }
+
+  .travel-package-card a:hover{
+    color: white;
+  }
